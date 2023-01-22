@@ -5,9 +5,44 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  column-gap: 5px;
+  align-items: center;
+
+}
+
+input{
+  width: 30%;
+  padding-block: 3px;
+  margin: 5px;
+  border-radius: 3px;
+}
+
+button{
+  width: 100px;
+  height: 36px;
+  color: white;
+  border-radius: 5px;
+  background-color: rgb(24, 24, 231);
+  
+
+}
+
+button:hover {background-color: #0a017c}
+
+::placeholder{
+  text-align: center;
 }
